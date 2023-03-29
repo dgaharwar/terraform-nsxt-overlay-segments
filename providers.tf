@@ -7,3 +7,10 @@ terraform {
     }
   }
 }
+
+provider "nsxt" {
+  host     = var.nsx_host
+  username = var.nsx_username
+  password = var.nsx_password
+  global_manager = true
+}
