@@ -1,0 +1,14 @@
+# overlay segments section. 
+overlay_segments:
+  seg-app01:
+    segment_name: seg-app01
+    description: Segment for application workloads  - Created by Terraform
+    cidr: 10.32.25.1/24
+  seg-web01:
+    segment_name: seg-web01
+    description: Segment for web workloads  - Created by Terraform
+    cidr: 10.32.26.1/24
+  seg-db01:
+    segment_name: seg-db01
+    description: Segment for db workloads  - Created by Terraform
+    cidr: 10.32.27.1/24
